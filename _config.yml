@@ -18,7 +18,7 @@ app:
 # Marketing
 #
 marketing_header: # Optional
-marketing_desc: Trust - fast and secure Ethereum wallet and ERC20 Compatible.
+marketing_desc: Trust - Secure wallet for Ethereum and ERC20 tokens.
 
 #
 # Social Links
@@ -70,7 +70,7 @@ download_button_text_color: white; # Optional
 # If you want specific meta info for your <head></head> tags
 #
 title: Trust - Ethereum Wallet # Optional - Enter your site title
-description: Trust - fast and secure Ethereum wallet that’s easy to use. # Optional - Enter your site description
+description: Trust - Secure wallet for Ethereum and ERC20 tokens. # Optional - Enter your site description
 
 #
 # Google Analytics
