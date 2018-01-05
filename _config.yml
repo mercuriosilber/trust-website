@@ -15,8 +15,7 @@ app:
   screenshot: images/app-screen-640x1136.png
 
 # Setup
-title: FAQ
-paginate: 6
+paginate: 10
 
 #
 # Marketing
