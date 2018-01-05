@@ -14,6 +14,9 @@ app:
   icon: images/app-icon-512.png
   screenshot: images/app-screen-640x1136.png
 
+# Setup
+paginate: 10
+
 #
 # Marketing
 #
@@ -102,3 +105,10 @@ sass:
 exclude:
   - LICENSE
   - README.md
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Build settings
+markdown:       kramdown
