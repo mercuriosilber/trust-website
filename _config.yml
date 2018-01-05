@@ -16,6 +16,8 @@ app:
 
 # Setup
 paginate: 10
+# url: "https://trustwalletapp.com/"
+# baseurl: "https://trustwalletapp.com/"
 
 #
 # Marketing
