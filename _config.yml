@@ -14,10 +14,13 @@ app:
   icon: images/app-icon-512.png
   screenshot: images/app-screen-640x1136.png
 
-# Setup
-paginate: 10
-# url: "https://trustwalletapp.com/"
-# baseurl: "https://trustwalletapp.com/"
+# Permalinks
+permalink: /:title
+
+# Gems
+plugins:
+  - jekyll-paginate
+
 
 #
 # Marketing

@@ -3,87 +3,26 @@
 <body>
     <nav class="nav">
       <div class="nav-container">
-        <a href="#">
-          <h2 class="nav-title">Frequently Asked Questions</h2>
-        </a>
+        <h2 style="color: #555;">Frequently Asked Questions</h2>
     </div>
   </nav>
 
-    <main>
-      <div class="catalogue">
-  
-      <a class="catalogue-item">
-      <!-- <a href="/what_is_trust_wallet.html" class="catalogue-item"> -->
-        <div>
-          <h1 class="catalogue-title">What is Trust Wallet?</h1>
-          <div class="catalogue-line"></div>
-          <p class="catalogue-desc">Trust is a secure Ethereum and ERC20 token wallet.</p>
-        </div>
-      </a>
-
-      <a class="catalogue-item">
-      <!-- <a href="/which_coins_are_supported.html" class="catalogue-item"> -->
-        <div>
-          <h1 class="catalogue-title">Which coins are supported?</h1>
-          <div class="catalogue-line"></div>
-          <p class="catalogue-desc">Ethereum, Ethereum Classic, POA Network.</p>
-        </div>
-      </a>
-
-      <a class="catalogue-item">
-      <!-- <a href="/which_tokens_are_supported.html" class="catalogue-item"> -->
-        <div>
-          <h1 class="catalogue-title">Which tokens are supported?</h1>
-          <div class="catalogue-line"></div>
-          <p class="catalogue-desc">Any ERC20 tokens are supported and fully compatible with Trust Wallet. Follow etherscan.io to view the complete list of ERC20 tokens.</p>
-        </div>
-      </a>
-
-      <a class="catalogue-item">
-      <!-- <a href="/is_trust_wallet_secure.html" class="catalogue-item"> -->
-        <div>
-          <h1 class="catalogue-title">Is Trust Wallet secure?</h1>
-          <div class="catalogue-line"></div>
-          <p class="catalogue-desc">Yes, your private key only stored locally and protected with many layers of security. The wallet is also open source and audited. We will never access any of your personal information and Trust always keeps your data private and secure.</p>
-        </div>
-      </a>
-
-      <a class="catalogue-item">
-      <!-- <a href="/how_do_i_back_up_my_wallet.html" class="catalogue-item"> -->
-        <div>
-          <h1 class="catalogue-title">How do I back up my wallet?</h1>
-          <div class="catalogue-line"></div>
-          <p class="catalogue-desc">You will be prompted to set up and save a keystore after creating you new wallet. The keystore is encrypted with a password of your choice.</p>
-        </div>
-      </a>
-
-      <a class="catalogue-item">
-      <!-- <a href="/how_do_i_import-restore_my_wallet.html" class="catalogue-item"> -->
-        <div>
-          <h1 class="catalogue-title">How do I import/restore my wallet?</h1>
-          <div class="catalogue-line"></div>
-          <p class="catalogue-desc">In Settings > Wallets you can import your wallet. Simply type in your JSON keystore or your private key.</p>
-        </div>
-      </a>
-
-      <a class="catalogue-item">
-      <!-- <a href="/where_are_the_token_prices_shown_in_my_wallet_are_coming_from.html" class="catalogue-item"> -->
-        <div>
-          <h1 class="catalogue-title">Where are the token prices shown in my wallet are coming from?</h1>
-          <div class="catalogue-line"></div>
-          <p class="catalogue-desc">Prices shown in the Trust app are actual coinmarketcap.com prices.</p>
-        </div>
-      </a>
-
-      <a class="catalogue-item">
-      <!-- <a href="/can_i_put_tokens_from_trust_onto_a_trezor-Ledger_cold_storage.html" class="catalogue-item"> -->
-        <div>
-          <h1 class="catalogue-title">Can I put tokens from Trust onto a Trezor/Ledger cold storage?</h1>
-          <div class="catalogue-line"></div>
-          <p class="catalogue-desc">Of course you can. Simply send your tokens on you cold storage's adress.</p>
-        </div>
-      </a>
-  
-</div>
-
+      <main>
+        <div class="catalogue">
+      
+          {% for post in site.posts %}
+          <a href="{{ post.url }}" target="_self" class="catalogue-item">
+            <div>
+              <h1 class="catalogue-title">{{ post.title }}</h1>
+              <div class="catalogue-line"></div>
+      
+              <p class="catalogue-desc">
+                {{ post.content | truncatewords: 20 | strip_html }}
+              </p>
+      
+            </div>
+          </a>
+          {% endfor %}
+        </div>    
+      </main>
 </body>
