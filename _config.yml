@@ -4,9 +4,7 @@
 
 # Be sure all REQUIRED fields are filled out!
 
-#
 # General App Info
-#
 app:
   name: Trust - Ethereum Wallet # REQUIRED - Enter your app name
   ios_id: 1288339409 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
@@ -17,22 +15,11 @@ app:
 # Permalinks
 permalink: /:title
 
-# Gems
-plugins:
-  - jekyll-paginate
-
-
-#
 # Marketing
-#
 marketing_header: # Optional
 marketing_desc: Trust - Secure wallet for Ethereum and ERC20 tokens.
 
-#
 # Social Links
-#
-# Includes an icon for each username you enter
-#
 social-links:
   github: TrustWallet
   reddit: 
@@ -44,9 +31,7 @@ social-links:
   youtube: # channel/<your_long_string> or <user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-#
 # Enable/Disable Features & Page Elements
-#
 enable:
   app_icon: true
   smart_app_banner: true
@@ -61,9 +46,7 @@ enable:
 #
 device: iphone-se-silver-vertical # REQUIRED
 
-#
 # Theme Settings
-#
 background_color: "#2e91db" # Optional
 background_image: # Optional - Use Relative path e.g. images/backgrounds/image.jpg
 text_color: white # Optional
@@ -72,17 +55,11 @@ social_link_color: white # Optional
 download_button_background_color: "#0191FF" # Optional
 download_button_text_color: white; # Optional
 
-#
-# Site Info
-#
-# If you want specific meta info for your <head></head> tags
-#
+# Site Info - specific meta
 title: Trust - Ethereum Wallet # Optional - Enter your site title
 description: Trust - Secure wallet for Ethereum and ERC20 tokens. # Optional - Enter your site description
 
-#
 # Google Analytics
-#
 google_analytics: UA-107603827-1 # Enter your tracking code (e.g. UA-2110908-2) to activate tracking
 
 #
@@ -111,9 +88,5 @@ exclude:
   - LICENSE
   - README.md
 
-# Gems
-plugins:
-  - jekyll-paginate
-
 # Build settings
-markdown:       kramdown
+markdown: kramdown
