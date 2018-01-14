@@ -134,7 +134,7 @@ pre code {
 .post-title {
     color: #353535;
     font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 1rem 0;
     text-align: center
 }
@@ -598,10 +598,22 @@ footer span {
     transition: all 0.3s ease-out;
     border-top: 0.2rem solid #353535;
     display: block;
-    width: 2rem
+    width: 2rem;
+    margin: 1rem 0;
 }
 
 .catalogue-desc {
-	color: #555;
+    color: #555;
     margin-top: 10px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .post-title {
+        color: #353535;
+        font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 2rem;
+        margin: 1rem 0;
+        text-align: center
+    }
 }

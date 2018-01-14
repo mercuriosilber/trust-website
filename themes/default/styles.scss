@@ -41,9 +41,22 @@ a {
   color: #ffffff;
 }
 
-a:hover,a:visited,a:active,a:link {
-  text-decoration: none;
-  color: #ffffff;
+a:hover,
+a:visited,
+a:active,
+a:link {
+    text-decoration: none;
+    color: #4a9ae1
+}
+
+span.link-white {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.link-white {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 a.footer-links:hover {

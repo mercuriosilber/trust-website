@@ -38,11 +38,6 @@ h6 {
     line-height: normal
 }
 
-a {
-    color: #4a9ae1;
-    text-decoration: none
-}
-
 blockquote {
     border-left: 0.25rem solid #e5e5e5;
     color: #979797;
@@ -134,7 +129,7 @@ pre code {
 .post-title {
     color: #353535;
     font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 1rem 0;
     text-align: center
 }
