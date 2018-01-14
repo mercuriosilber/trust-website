@@ -17,12 +17,12 @@ Jekyll
 ## Contribute on FAQ
 Follow Jekyll's convention title formatting — https://jekyllrb.com/docs/posts/:
 ```
-YEAR-MONTH-DAY-the_name_of_the_post.md
-2020-02-20-trust_is_the_best.md
+YEAR-MONTH-DAY-the-name-of-the-post.md
+2020-02-20-trust-is-the-best.md
 ```
 Once created a new .md file in `_posts`, the file will automatically be rendered to a .html file in `_site` dir.
 
-Please refer to `_posts` https://github.com/TrustWallet/trust-website/tree/master/_posts for clarification.
+Please refer to [`_posts`](https://github.com/TrustWallet/trust-website/tree/master/_posts) for clarification.
 
 ## Contributing
 Found a bug or have a suggestion? Feel free to create an issue or make a pull request!
