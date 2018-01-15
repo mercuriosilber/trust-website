@@ -594,6 +594,7 @@ footer span {
     border-top: 0.2rem solid #353535;
     display: block;
     width: 2rem
+    margin: 1rem 0;
 }
 
 .catalogue-desc {

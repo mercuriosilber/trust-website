@@ -59,6 +59,14 @@ a.link-white {
     color: #ffffff;
 }
 
+a.link-white:hover,
+a.link-white:visited,
+a.link-white:active,
+a.link-white:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 a.footer-links:hover {
     opacity: 0.65;
     color: #ffffff;
